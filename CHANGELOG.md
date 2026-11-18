@@ -13,6 +13,20 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Fixed
 
+## [15.5.0] - 2026-11-18
+
+### Changed
+
+- Improved dependency graph construction performance.
+
+### Fixed
+
+- Fixed false differences related to the `pg_attver` column property.
+
+### Security
+
+- Updated ClickHouse JDBC driver version due to CVE-2026-102554.
+
 ## [15.4.0] - 2026-10-19
 
 ### Added
@@ -289,7 +303,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Fixed a bug with the settings when saving objects to a project.
 - Fixed false differences when ignoring table column order.
 
-[Unreleased]: https://github.com/pgcodekeeper/pgcodekeeper-cli/compare/v15.4.0...HEAD
+[Unreleased]: https://github.com/pgcodekeeper/pgcodekeeper-cli/compare/v15.5.0...HEAD
+[15.5.0]: https://github.com/pgcodekeeper/pgcodekeeper-cli/compare/v15.4.0...v15.5.0
 [15.4.0]: https://github.com/pgcodekeeper/pgcodekeeper-cli/compare/v15.3.0...v15.4.0
 [15.3.0]: https://github.com/pgcodekeeper/pgcodekeeper-cli/compare/v15.2.0...v15.3.0
 [15.2.0]: https://github.com/pgcodekeeper/pgcodekeeper-cli/compare/v15.1.0...v15.2.0
