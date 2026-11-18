@@ -13,6 +13,20 @@
 
 ### Исправлено
 
+## [15.5.0] - 2026-11-18
+
+### Изменено
+
+- Повышена производительность построения графа зависимостей.
+
+### Исправлено
+
+- Исправлены ложные различия, связанные со свойством колонки `pg_attver`.
+
+### Безопасность
+
+- Обновлена версия JDBC дравера ClickHouse из-за CVE-2026-102554.
+
 ## [15.4.0] - 2026-10-19
 
 ### Добавлено
@@ -287,7 +301,8 @@
 - Исправлена ошибка с работой настроек при сохранении объектов в проект.
 - Исправлены ложные различия при игнорировании порядка колонок таблицы.
 
-[Новое]: https://github.com/pgcodekeeper/pgcodekeeper-cli/compare/v15.4.0...HEAD
+[Новое]: https://github.com/pgcodekeeper/pgcodekeeper-cli/compare/v15.5.0...HEAD
+[15.5.0]: https://github.com/pgcodekeeper/pgcodekeeper-cli/compare/v15.4.0...v15.5.0
 [15.4.0]: https://github.com/pgcodekeeper/pgcodekeeper-cli/compare/v15.3.0...v15.4.0
 [15.3.0]: https://github.com/pgcodekeeper/pgcodekeeper-cli/compare/v15.2.0...v15.3.0
 [15.2.0]: https://github.com/pgcodekeeper/pgcodekeeper-cli/compare/v15.1.0...v15.2.0
