@@ -41,7 +41,7 @@
         <sonar.inclusions>**/*.java</sonar.inclusions>
         <sonar.exclusions>**/*.sql, **/*.xml, **/generated/**, **/Messages.java</sonar.exclusions>
 
-        <logback.version>1.6.5</logback.version>
+        <logback.version>1.6.8</logback.version>
     </properties>
 
     <dependencies>
@@ -129,7 +129,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.6.0</version>
+                <version>3.6.1</version>
             </plugin>
         </plugins>
     </build>
@@ -142,12 +142,12 @@
                     <plugin>
                         <groupId>org.sonarsource.scanner.maven</groupId>
                         <artifactId>sonar-maven-plugin</artifactId>
-                        <version>5.8.0.7211</version>
+                        <version>5.9.0.7382</version>
                     </plugin>
                     <plugin>
                         <groupId>org.jacoco</groupId>
                         <artifactId>jacoco-maven-plugin</artifactId>
-                        <version>0.8.15</version>
+                        <version>0.8.16</version>
                         <executions>
                             <execution>
                                 <id>prepare-agent</id>
