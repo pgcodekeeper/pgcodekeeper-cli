@@ -13,6 +13,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Fixed
 
+## [15.6.1] - 2026-11-26
+
+### Fixed
+
+- Fixed an error when reading constraints.
+
 ## [15.6.0] - 2026-11-26
 
 ### Changed
@@ -315,7 +321,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Fixed a bug with the settings when saving objects to a project.
 - Fixed false differences when ignoring table column order.
 
-[Unreleased]: https://github.com/pgcodekeeper/pgcodekeeper-cli/compare/v15.6.0...HEAD
+[Unreleased]: https://github.com/pgcodekeeper/pgcodekeeper-cli/compare/v15.6.1...HEAD
+[15.6.1]: https://github.com/pgcodekeeper/pgcodekeeper-cli/compare/v15.6.0...v15.6.1
 [15.6.0]: https://github.com/pgcodekeeper/pgcodekeeper-cli/compare/v15.5.0...v15.6.0
 [15.5.0]: https://github.com/pgcodekeeper/pgcodekeeper-cli/compare/v15.4.0...v15.5.0
 [15.4.0]: https://github.com/pgcodekeeper/pgcodekeeper-cli/compare/v15.3.0...v15.4.0
